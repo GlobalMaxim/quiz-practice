@@ -1,0 +1,33 @@
+.Menu {
+    max-width: 300px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    background: rgb(115, 191, 226);
+    transform: translateX(0px);
+    transition: transform .22s ease-in;
+    z-index: 90;
+}
+
+.Menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Menu ul li {
+    margin-bottom: 15px;
+}
+
+.Menu ul li a {
+    color: #363f54;
+    font-size: 30px;
+    text-decoration: none;
+    background-color:rgb(115, 191, 226);
+    position: relative;
+    padding: 0 20px 10px 20px;
+    transform: opacity .3s;
+}
+
+.Drawer ul li a:hover, .active {
+    opacity: .7;
+}
